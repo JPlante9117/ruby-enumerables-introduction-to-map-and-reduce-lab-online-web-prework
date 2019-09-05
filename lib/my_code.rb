@@ -66,11 +66,9 @@ def reduce_to_total(source_array, starting_point)
 i = 0
 total = 0
 
-if starting_point
-  total = starting_point
-else
-  total = 0
-end
+  if starting_point do
+    total = starting_point
+  end
 
   while i < source_array.length do 
     new_value = source_array[i]

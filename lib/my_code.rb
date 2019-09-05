@@ -81,7 +81,18 @@ end
 
 def reduce_to_all_true(source_array)
   i = 0 
+  answer = false
+  while i < source_array.length do
+    if source_array[i] == true 
+      answer = true
+    else
+      answer = false
+      return answer
+    end
+    i += 1
+  end
   
+  answer
 end
 
 

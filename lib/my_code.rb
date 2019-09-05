@@ -72,7 +72,6 @@ total = starting_point
     
     i += 1
   end
- total
 end  
 
 def reduce_to_all_true(source_array)
